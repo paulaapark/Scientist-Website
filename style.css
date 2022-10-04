@@ -395,3 +395,39 @@ form{
 .style3:hover{ /* for "#register" button */
     background-color:  rgba(173, 141, 141, 0.479);
 }
+
+
+
+
+
+/*.container{ style */ 
+    /* text-align: center; */
+    /* background-color: #4854f546; */
+    /* background-image: radial-gradient(#4854f546, white); */
+    /* border-style: none; */
+/* } */
+    
+/*.event-name{ /* for ".style1"*/
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+/* } */
+
+
+
+/* .event-info{ for  ".style-2" */
+    /* background-color: rgba(255, 255, 255, 0.582); */
+
+/* } */
+
+/* #register{ for ".style3" button */
+    /* width: 150px; */
+    /* background-color:rgba(117, 74, 74, 0.479); */
+    /* font-weight: bold; */
+    /* border-color: rgba(173, 141, 141, 0.479); */
+    /* border-radius: 5px; */
+/* } */
+
+/* #register:hover{ for ".style4" button */
+    /* background-color:  rgba(173, 141, 141, 0.479); */
+/* } */
