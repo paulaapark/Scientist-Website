@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="icofont/icofont.min.css">
+    <script src="script.js"></script>
 
 
     <!-- fonts -->
@@ -73,42 +74,46 @@
     <div id="events">
         <h2 class="no-select">Events</h2>
 
-        <div id="grid">
+        <div id="grid" class="container">
             
             <div class="event-info">
-                <p>
-                    AMA Event<br>
+                <br>
+                <p class="event-name">AMA Event </p><br>
                     <br>
-                    Location: Online - reddit.com/r/Chemistry <br>
-                    <br>
-                    October 27, 2022 - 8:00 PM EST<br>
                     
-                </p>
-            </div>
-
-
-            <div class="event-info">
-                <p>
-                    Chemist Panel - Sci Talk Convention <br>
+                <p class="event-place"> Location: Online -<br>
+                    <a href="https://www.reddit.com/r/chemistry/" target="_blank">reddit.com/r/Chemistry</a></p><br>
                     <br>
-                    Location: McGill University Chemistry Building - Montreal, QC. <br>
                     <br>
-                    November 15, 2022 - 12:00 PM EST <br>
+                <p class="event-date">October 27, 2022 - 8:00 PM EST</p><br>
                     <br>
-                    <button>Register!</button>
-                </p>
             </div>
 
             <div class="event-info">
-                <p>
-                    March Break-ing Bad - Applied Synthesis Demo <br>
+                <p class="event-name">Chemist Panel <br>
+                    Sci Talk Convention </p><br>
                     <br>
-                    Location: Toronto Congress Center - Etobicoke, ON.  <br>
+                <p class="event-place"> Location: Montreal, QC -<br>
+                    <a href="https://goo.gl/maps/AE9VpfShffFzHgpf9" target="_blank">McGill University Chemistry Building</a></p><br>
                     <br>
-                    March 10, 2023 - 2:00 PM EST <br>
                     <br>
-                    <button>Register!</button>
-                </p>
+                <p class="event-date">November 15, 2022 - 12:00 PM EST</p><br>
+                    <br>
+                    
+                <button id="register">Register!</button>
+            </div>
+
+            <div class="event-info">
+                <p class="event-name">March Break-ing Bad <br> 
+                    Applied Synthesis Demo</p><br>
+                    <br>
+                <p class="event-place"> Location: Etobicoke, ON -<br>
+                   <a href="https://goo.gl/maps/WxPte5XpF4McQjqv9" target="_blank">Toronto Congress Center</a>   </p><br>
+                    <br>
+                    <br>
+                <p class="event-date"> March 10, 2023 - 2:00 PM EST </p><br>
+                    <br>
+                <button id="register">Register!</button>
             </div>
             
         
@@ -119,7 +124,7 @@
     <br>
     <br>
     <br>
-    <button id="style-me">Style Me!</button>
+    <button onclick="style_me()" id="style-me">Style Me!</button>
     <br>
     <br>
     <br>
@@ -169,8 +174,15 @@
     <p id="form-title">Who is your Favourite Scientist?</p>
     <form method="get">
         <input type="text" placeholder="Scientist's Name..." class="text-input"> <br>
-        <input type="Submit" value="Submit" id="submit">
+        <input type="Submit" value="+" id="submit" onclick="add()"">
     </form>
+    <div id="textbox">
+        <br>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        <br>
+    </div>
+<br>
+<br>
     
 </body>
 </html>
