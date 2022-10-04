@@ -365,26 +365,24 @@ form{
     background-color:  rgba(173, 141, 141, 0.479);
 }
 
-.style{ /* for ".container" */
+.style0{
     text-align: center;
-    /* background-color: #4854f546; */
     background-image: radial-gradient(#4854f546, white);
     border-style: none;
 }
     
-.style1{ /* for ".event-name"*/
+.style1{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 
-.style2{ /* for ".event-info" */
+.style2{
     background-color: rgba(255, 255, 255, 0.582);
-
 }
 
-.style3{ /* for "#register" button */
+.style3{
     width: 150px;
     background-color:rgba(117, 74, 74, 0.479);
     font-weight: bold;
@@ -392,42 +390,41 @@ form{
     border-radius: 5px;
 }
 
-.style3:hover{ /* for "#register" button */
+.style3:hover{
     background-color:  rgba(173, 141, 141, 0.479);
 }
 
 
+/* style0= container, style1= event name, style2= event-info, style 3= register */
 
 
-
-/*.container{ style */ 
-    /* text-align: center; */
-    /* background-color: #4854f546; */
-    /* background-image: radial-gradient(#4854f546, white); */
-    /* border-style: none; */
-/* } */
+/* .container{ 
+    text-align: center;
+    background-color: #4854f546;
+    background-image: radial-gradient(#4854f546, white);
+    border-style: none;
+} 
     
-/*.event-name{ /* for ".style1"*/
-    /* font-size: 20px; */
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
-/* } */
+.event-name{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 
+.event-info{
+    background-color: rgba(255, 255, 255, 0.582);
 
-/* .event-info{ for  ".style-2" */
-    /* background-color: rgba(255, 255, 255, 0.582); */
+}
 
-/* } */
+#register{
+    width: 150px;
+    background-color:rgba(117, 74, 74, 0.479);
+    font-weight: bold;
+    border-color: rgba(173, 141, 141, 0.479);
+    border-radius: 5px;
+}
 
-/* #register{ for ".style3" button */
-    /* width: 150px; */
-    /* background-color:rgba(117, 74, 74, 0.479); */
-    /* font-weight: bold; */
-    /* border-color: rgba(173, 141, 141, 0.479); */
-    /* border-radius: 5px; */
-/* } */
-
-/* #register:hover{ for ".style4" button */
-    /* background-color:  rgba(173, 141, 141, 0.479); */
-/* } */
+#register:hover{
+    background-color:  rgba(173, 141, 141, 0.479);
+} */
