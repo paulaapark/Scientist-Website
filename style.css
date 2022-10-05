@@ -398,7 +398,7 @@ form{
 /* style0= container, style1= event name, style2= event-info, style 3= register */
 
 
-/* .container{ 
+.container{ 
     text-align: center;
     background-color: #4854f546;
     background-image: radial-gradient(#4854f546, white);
@@ -427,4 +427,4 @@ form{
 
 #register:hover{
     background-color:  rgba(173, 141, 141, 0.479);
-} */
+}
