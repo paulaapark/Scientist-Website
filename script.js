@@ -1,5 +1,9 @@
 
 
+// document.addEventListener('DOMContentLoaded', ()=>{ });
+
+
+
 function style_me(){
     if ( document.getElementById("events").classList.contains('container' 'event-name' 'event-info' 'register');
     document.getElementsByClassName("container" "event-name" "event-info" "register").classList.toggle('style0' 'style1' 'style2' 'style3');
